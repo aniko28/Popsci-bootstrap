@@ -11,7 +11,7 @@
 <body>
 <div class="container">
     <div class="row">
-        <div class="col-lg-3">
+        <div class="col-md-12">
             <h1>HEALTH</h1>
         </div>
     </div>
@@ -20,8 +20,9 @@
             <h2>IBM CREATES A MOLECULE THAT COULD DESTROY ALL VIRUSES</h2>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-9">
+    <!-- A title osztályra vonatkozó megjegyzést lásd a CSS-ben! -->
+    <div class="row title">
+        <div class="col-md-12">
             <h3>ONE MACROMOLECULE TO RULE THEM ALL, FROM EBOLA TO ZIKA AND THE FLU
                 <span>By Claire Maldarelli</span>
                 <span class="date">May 13, 2016</span>
@@ -29,7 +30,9 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-4">
+        <!-- Nyugodtan lehet 100% . Látható, hogy a designban ez egy különálló, önálló sor, a tartalom addig ér benne,
+         ameddig ér, nincs okunk szűkebbre szabni, csak azért, mert elfér szűkebben is. -->
+        <div class="col-md-12">
             <div class="int">
                 <ul>
                     <li><i class="fa fa-facebook"></i></li>
@@ -41,12 +44,11 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-6">
+        <!-- Gondolom a kép mérete miatt választottál mást a 8-as helyett. Nyugodtan lehet 8-as, a képnél pedig a CSS-ben
+         100%-os szélességet adtam meg. Így ugyan kicsit nyújtani vagy éppen kicsinyíteni fogja - monitor/mobil felbontástól
+         függően -, de nem baj, a lényeg, hogy így az alatta lévő szöveggel mindig "szimmetrikus" lesz. -->
+        <div class="col-md-8 article">
             <img src="influenza_virus.jpg" alt="">
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-7 article">
             <div class="b">
                 <p>CDC/ Dr. Erskine. L. Palmer; Dr. M. L. Martin via Flickr</p>
             </div>
@@ -59,7 +61,7 @@
                 that
                 knowledge, they've come up with a macromolecule that may have the potential to treat multiple types of
                 viruses and prevent them from infecting us. The work was published recently in the journal
-                <spanc><i>Macromolecules.</i></span>
+                <span><i>Macromolecules.</i></span>
             </p>
             <p>For their study, the researchers ignored the viruses’ RNA and DNA, which could be key areas to target,
                 but

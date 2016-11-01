@@ -16,7 +16,9 @@ h3 {
     font-weight: 600;
 }
 
-span {
+/* A span túl általános önmagában, használod pl az article-ben is, csak azért nem láttad a "hatását", mert elgépelted
+ és "spanc"-ot írtál :) Ezért érdemes megmondani, hogy "hol lévő span", ezért létrehoztam egy "title" osztályt. */
+.title span {
     color: black;
     font-size: 17px;
     font-weight: 600;
@@ -42,8 +44,9 @@ span {
     color: silver;
 }
 
+/* Az ide vonatkozó megjegyzést lásd az index.html fájlban. */
 img {
-    width: 655px;
+    width: 100%;
 }
 
 .b {
